@@ -50,7 +50,7 @@
               }
             };
             
-
+        chatLink: "https://rawgit.com/mutkanz/basicBot/master/lang/en.json";
         // Load the chat package again to account for any changes
         bot.loadChat();
 
