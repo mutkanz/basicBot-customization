@@ -126,5 +126,6 @@
 
     // Start the bot and extend it when it has loaded.
     $.getScript("https://rawgit.com/mutkanz/basicBot/master/basicBot.js", extend);
-
+    chatLink: "https://rawgit.com/mutkanz/basicBot/master/lang/en.json";
+    bot.loadChat();
 }).call(this);
