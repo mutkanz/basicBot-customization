@@ -59,10 +59,10 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "ItsC25 Offical BOT",
       language: "english",
-      chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-      scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+      chatLink: "https://rawgit.com/mutkanz/basicBot/master/lang/en.json",
+      scriptLink: "https://rawgit.com/mutkanz/basicBot/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -72,7 +72,7 @@
       smartSkip: true,
       cmdDeletion: true,
       maximumAfk: 120,
-      afkRemoval: true,
+      afkRemoval: false,
       maximumDc: 60,
       bouncerPlus: true,
       blacklistEnabled: true,
@@ -103,7 +103,7 @@
       afkRankCheck: "ambassador",
       motdEnabled: false,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "Sveiki plebai!",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
@@ -118,13 +118,13 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/mutkanz/basicBot-customization/master/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/mutkanz/basicBot-customization/master/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/mutkanz/basicBot-customization/master/blacklists/BANNEDlist.json"
       }
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/mutkanz/basicBot/master/basicBot.js", extend);
 
 }).call(this);
